@@ -1,0 +1,36 @@
+* {
+    font-family: "Edu AU VIC WA NT Pre", serif;
+}
+
+body {
+    background-color: #0A0617;
+    color: #FFFFFF;
+}
+
+.account-header {
+    color: #adadad;
+}
+
+.register-form {
+    background: linear-gradient(-15deg, rgb(13 14 51) 0 50%, rgb(27 9 28) 90% 95%, rgb(33 19 32) 100%);
+    border-color: rgba(36, 4, 73, 1);
+}
+
+input[type=text], input[type=password] {
+    background-color: transparent;
+    color: #FFFFFF;
+  }
+  
+  ::placeholder {
+    color: #CCCCCC;
+  }
+
+.regbutton {
+    background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);
+    box-shadow: inset rgba(255, 255, 255, 0.418) 3px 3px 5px;
+    transition: all .4s;
+}
+
+.regbutton:hover {
+    box-shadow: inset rgba(255, 255, 255, 0.473) 4px 4px 5px;
+}
